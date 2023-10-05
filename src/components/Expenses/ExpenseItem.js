@@ -5,11 +5,11 @@ import Card from "../UI/Card";
 
 function ExpenseItem({ title, amount, date }) {
   const [title1, setTitle] = useState(title);
-  console.log("wow");
+  console.log("ExpenseItem");
 
   const clickHandler = () => {
     setTitle("Update!");
-    console.log("click");
+    console.log("clickHandler");
   };
 
   return (
