@@ -14,6 +14,7 @@ function ExpenseItem({ title, amount, date }) {
 
   return (
     // <div className="expense-item">
+    // <li>
     <Card className="expense-item">
       <ExpenseDate date={date} />
       <div className="expense-item__description">
@@ -22,6 +23,7 @@ function ExpenseItem({ title, amount, date }) {
       <div className="expense-item__price">{amount}원</div>
       <button onClick={clickHandler}>Change Title</button>
     </Card>
+    // </li>
   );
 }
 
